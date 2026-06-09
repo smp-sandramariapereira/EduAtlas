@@ -76,6 +76,7 @@ Desenvolver uma plataforma inteligente de suporte à decisão (SaaS) para formul
                   │  Dashboards e APIs   │
                   └──────────────────────┘
 
+```text
 ---
 
 # 5. Fontes de Dados Mapeadas
