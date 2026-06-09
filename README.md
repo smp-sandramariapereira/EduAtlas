@@ -125,7 +125,7 @@ O projeto integra conhecimentos das áreas de:
                             │
       ┌─────────────────────┼─────────────────────┐
       ▼                     ▼                     ▼
- IA Preditiva       Estatística Espacial      SIG
+ IA Preditiva       Estatística Espacial          SIG
       │                     │                     │
       └─────────────────────┼─────────────────────┘
                             ▼
