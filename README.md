@@ -1,4 +1,4 @@
-# GeoEduAI
+# EduAtlas
 
 ## Plataforma Inteligente para Formulação, Priorização e Avaliação de Políticas Educacionais Baseadas em Evidências Territoriais
 
