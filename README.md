@@ -378,3 +378,5 @@ O projeto apresenta aderência às diretrizes da Lei de Informática por envolve
 * Geração de propriedade intelectual.
 
 Além disso, produz ativos tecnológicos passíveis de exploração comercial e transferência para organizações públicas e privadas.
+
+# 17. Referência Bibliográfica
