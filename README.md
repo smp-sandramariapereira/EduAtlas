@@ -1,382 +1,294 @@
-# EduAtlas
-
-## Plataforma Inteligente para Formulação, Priorização e Avaliação de Políticas Educacionais Baseadas em Evidências Territoriais
-
-### Projeto de Pesquisa, Desenvolvimento e Inovação (PD&I)
+# EduAtlas: Plataforma de Inteligência Territorial Educacional
+## Projeto de Pesquisa, Desenvolvimento e Inovação (PD&I) — Lei de Informática
 
 ---
 
 # 1. Resumo Executivo
 
-O projeto GeoEduAI propõe o desenvolvimento de uma plataforma inteligente para apoio à formulação, priorização e monitoramento de políticas públicas educacionais, integrando Inteligência Artificial, Ciência de Dados, Estatística Espacial e Sistemas de Informação Geográfica.
+O projeto **EduAtlas (GeoEduAI)** propõe o desenvolvimento de uma plataforma inteligente de suporte à formulação, priorização e monitoramento de políticas públicas educacionais baseadas em evidências territoriais. A solução integrará Inteligência Artificial, Ciência de Dados, Estatística Espacial e Sistemas de Informação Geográfica (SIG).
 
-A solução utilizará fundamentos metodológicos derivados da metodologia SANDRA para identificar fatores críticos que influenciam indicadores educacionais em diferentes territórios, permitindo compreender não apenas os resultados observados, mas também suas causas estruturais e espaciais.
-
-A plataforma fornecerá diagnósticos automáticos, modelos preditivos, mecanismos de recomendação de políticas públicas e ferramentas de otimização de investimentos educacionais, apoiando gestores públicos na tomada de decisão baseada em evidências.
+A plataforma utilizará fundamentos metodológicos derivados da **Metodologia SANDRA** para identificar de forma automatizada os fatores críticos socioeconômicos e estruturais que influenciam os indicadores educacionais em diferentes recortes geográficos. A solução transborda a análise descritiva tradicional ao fornecer diagnósticos automáticos, modelos preditivos, mecanismos de recomendação de políticas públicas e ferramentas de otimização de investimentos educacionais, apoiando gestores na tomada de decisão estratégica com foco em equidade e eficiência.
 
 ---
 
-# 2. Contextualização
+# 2. Contextualização e Problema de Pesquisa
 
-O planejamento educacional brasileiro ainda é fortemente baseado em indicadores agregados e análises descritivas, frequentemente incapazes de capturar as diferenças territoriais que influenciam os resultados educacionais.
+O planejamento educacional e a alocação de recursos públicos no cenário brasileiro ainda dependem fortemente de indicadores estatísticos agregados (médias municipais ou estaduais). Essa abordagem descritiva tradicional falha em capturar as severas assimetrias e variabilidades territoriais que influenciam diretamente o desempenho escolar. Municípios ou escolas com indicadores de resultado idênticos frequentemente demandam intervenções estruturais completamente distintas em virtude de suas características demográficas, socioeconômicas, institucionais e de localização.
 
-Municípios com indicadores semelhantes podem demandar estratégias completamente distintas devido às suas características sociais, econômicas, geográficas e institucionais.
+Com o aumento da maturidade digital dos órgãos governamentais e a ampla disponibilidade de bases públicas de microdados estruturados e desestruturados, surge a oportunidade tecnológica para a criação de sistemas inteligentes baseados em evidências geográficas detalhadas.
 
-Ao mesmo tempo, a crescente disponibilidade de bases públicas de dados educacionais e socioeconômicos cria oportunidades para o desenvolvimento de ferramentas inteligentes capazes de apoiar decisões mais precisas e efetivas.
+### Problema de Pesquisa
+Como apoiar gestores públicos na formulação e priorização de políticas educacionais utilizando evidências territoriais obtidas por meio de inteligência artificial, análise espacial e modelos prescritivos de alocação de recursos?
 
-Nesse contexto, torna-se necessário desenvolver soluções tecnológicas capazes de:
-
-* Integrar grandes volumes de dados educacionais;
-* Identificar fatores territoriais críticos;
-* Detectar padrões espaciais;
-* Prever cenários futuros;
-* Recomendar políticas públicas;
-* Apoiar a alocação eficiente de recursos.
+### Hipótese
+A utilização integrada de algoritmos de análise espacial, aprendizagem automática e isolamento estatístico de variáveis territoriais críticas permite produzir recomendações de políticas públicas educacionais mais eficazes, equitativas e preditivas do que as abordagens analíticas e estatísticas tradicionais.
 
 ---
 
-# 3. Problema de Pesquisa
+# 3. Objetivos
 
-Como apoiar gestores públicos na formulação e priorização de políticas educacionais utilizando evidências territoriais obtidas por meio de inteligência artificial, análise espacial e modelos prescritivos?
+## Objetivo Geral
+Desenvolver uma plataforma inteligente de suporte à decisão (SaaS) para formulação, priorização e avaliação de políticas educacionais baseada em evidências territoriais.
 
----
-
-# 4. Hipótese
-
-A utilização integrada de análise espacial, inteligência artificial e identificação de variáveis territoriais críticas permite produzir recomendações de políticas públicas educacionais mais eficazes do que abordagens baseadas exclusivamente em análises estatísticas tradicionais.
-
----
-
-# 5. Objetivo Geral
-
-Desenvolver uma plataforma inteligente de apoio à decisão para formulação e priorização de políticas educacionais baseada em evidências territoriais.
-
----
-
-# 6. Objetivos Específicos
-
-## OE1
-
-Construir um Data Lake Educacional georreferenciado.
-
-## OE2
-
-Integrar bases educacionais, socioeconômicas e territoriais.
-
-## OE3
-
-Implementar o motor analítico baseado na metodologia SANDRA.
-
-## OE4
-
-Desenvolver modelos preditivos de indicadores educacionais.
-
-## OE5
-
-Implementar mecanismos de análise espacial.
-
-## OE6
-
-Desenvolver um sistema de recomendação de políticas públicas.
-
-## OE7
-
-Implementar um módulo de otimização multiobjetivo para priorização de investimentos.
-
-## OE8
-
-Validar a solução em ambientes reais de gestão educacional.
+## Objetivos Específicos (OE)
+* **OE1:** Construir um Data Lake Educacional unificado e georreferenciado.
+* **OE2:** Integrar e automatizar pipelines de dados estruturados e geoespaciais provenientes de bases educacionais, socioeconômicas e territoriais públicas.
+* **OE3:** Implementar o motor analítico core baseado na Metodologia SANDRA para isolamento de fatores críticos e avaliação de instabilidade regional.
+* **OE4:** Desenvolver e treinar modelos preditivos de inteligência artificial voltados a indicadores de proficiência, fluxo e abandono escolar.
+* **OE5:** Implementar mecanismos avançados de estatística espacial para detecção de clusters e *hotspots* de vulnerabilidade.
+* **OE6:** Desenvolver um sistema de recomendação prescritivo de políticas públicas baseado nas vulnerabilidades mapeadas.
+* **OE7:** Implementar um módulo de otimização multiobjetivo para apoio à tomada de decisão e priorização de investimentos financeiros em educação.
+* **OE8:** Validar a solução em ambientes de gestão educacional reais por meio do desenvolvimento de projetos-piloto.
 
 ---
 
-# 7. Fundamentação Tecnológica
-
-O projeto integra conhecimentos das áreas de:
-
-* Inteligência Artificial
-* Ciência de Dados
-* Estatística Espacial
-* Geoprocessamento
-* Sistemas de Apoio à Decisão
-* Learning Analytics
-* GovTech
-* EdTech
-* Otimização Multiobjetivo
-
----
-
-# 8. Arquitetura da Solução
+# 4. Arquitetura da Solução e Fluxo Tecnológico
 
 ```text
-                 ┌──────────────────────┐
-                 │ Fontes de Dados      │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Data Lake Educacional│
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Motor Analítico      │
-                 │ SANDRA               │
-                 └──────────┬───────────┘
-                            │
+                  ┌──────────────────────┐
+                  │   Fontes de Dados    │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Data Lake Educacional│
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │   Motor Analítico    │
+                  │       SANDRA         │
+                  └──────────┬───────────┘
+                             │
       ┌─────────────────────┼─────────────────────┐
       ▼                     ▼                     ▼
- IA Preditiva       Estatística Espacial          SIG
+ IA Preditiva      Estatística Espacial           SIG
       │                     │                     │
       └─────────────────────┼─────────────────────┘
                             ▼
-                 ┌──────────────────────┐
-                 │ Motor Prescritivo    │
-                 └──────────┬───────────┘
+                  ┌──────────────────────┐
+                  │  Motor Prescritivo   │
+                  │    e Otimização      │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │  Dashboards e APIs   │
+                  └──────────────────────┘
+
+
+Compreendido. Segue abaixo o conteúdo completo do arquivo estruturado diretamente em texto Markdown (dentro de um bloco de código) para que você possa visualizar, copiar e utilizar na sua apresentação:
+
+```markdown
+# EduAtlas: Plataforma de Inteligência Territorial Educacional
+## Projeto de Pesquisa, Desenvolvimento e Inovação (PD&I) — Lei de Informática
+
+---
+
+# 1. Resumo Executivo
+
+O projeto **EduAtlas (GeoEduAI)** propõe o desenvolvimento de uma plataforma inteligente de suporte à formulação, priorização e monitoramento de políticas públicas educacionais baseadas em evidências territoriais. A solução integrará Inteligência Artificial, Ciência de Dados, Estatística Espacial e Sistemas de Informação Geográfica (SIG).
+
+A plataforma utilizará fundamentos metodológicos derivados da **Metodologia SANDRA** para identificar de forma automatizada os fatores críticos socioeconômicos e estruturais que influenciam os indicadores educacionais em diferentes recortes geográficos. A solução transborda a análise descritiva tradicional ao fornecer diagnósticos automáticos, modelos preditivos, mecanismos de recomendação de políticas públicas e ferramentas de otimização de investimentos educacionais, apoiando gestores na tomada de decisão estratégica com foco em equidade e eficiência.
+
+---
+
+# 2. Contextualização e Problema de Pesquisa
+
+O planejamento educacional e a alocação de recursos públicos no cenário brasileiro ainda dependem fortemente de indicadores estatísticos agregados (médias municipais ou estaduais). Essa abordagem descritiva tradicional falha em capturar as severas assimetrias e variabilidades territoriais que influenciam diretamente o desempenho escolar. Municípios ou escolas com indicadores de resultado idênticos frequentemente demandam intervenções estruturais completamente distintas em virtude de suas características demográficas, socioeconômicas, institucionais e de localização.
+
+Com o aumento da maturidade digital dos órgãos governamentais e a ampla disponibilidade de bases públicas de microdados estruturados e desestruturados, surge a oportunidade tecnológica para a criação de sistemas inteligentes baseados em evidências geográficas detalhadas.
+
+### Problema de Pesquisa
+Como apoiar gestores públicos na formulação e priorização de políticas educacionais utilizando evidências territoriais obtidas por meio de inteligência artificial, análise espacial e modelos prescritivos de alocação de recursos?
+
+### Hipótese
+A utilização integrada de algoritmos de análise espacial, aprendizagem automática e isolamento estatístico de variáveis territoriais críticas permite produzir recomendações de políticas públicas educacionais mais eficazes, equitativas e preditivas do que as abordagens analíticas e estatísticas tradicionais.
+
+---
+
+# 3. Objetivos
+
+## Objetivo Geral
+Desenvolver uma plataforma inteligente de suporte à decisão (SaaS) para formulação, priorização e avaliação de políticas educacionais baseada em evidências territoriais.
+
+## Objetivos Específicos (OE)
+* **OE1:** Construir um Data Lake Educacional unificado e georreferenciado.
+* **OE2:** Integrar e automatizar pipelines de dados estruturados e geoespaciais provenientes de bases educacionais, socioeconômicas e territoriais públicas.
+* **OE3:** Implementar o motor analítico core baseado na Metodologia SANDRA para isolamento de fatores críticos e avaliação de instabilidade regional.
+* **OE4:** Desenvolver e treinar modelos preditivos de inteligência artificial voltados a indicadores de proficiência, fluxo e abandono escolar.
+* **OE5:** Implementar mecanismos avançados de estatística espacial para detecção de clusters e *hotspots* de vulnerabilidade.
+* **OE6:** Desenvolver um sistema de recomendação prescritivo de políticas públicas baseado nas vulnerabilidades mapeadas.
+* **OE7:** Implementar um módulo de otimização multiobjetivo para apoio à tomada de decisão e priorização de investimentos financeiros em educação.
+* **OE8:** Validar a solução em ambientes de gestão educacional reais por meio do desenvolvimento de projetos-piloto.
+
+---
+
+# 4. Arquitetura da Solução e Fluxo Tecnológico
+
+```text
+                  ┌──────────────────────┐
+                  │   Fontes de Dados    │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Data Lake Educacional│
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │   Motor Analítico    │
+                  │       SANDRA         │
+                  └──────────┬───────────┘
+                             │
+      ┌─────────────────────┼─────────────────────┐
+      ▼                     ▼                     ▼
+ IA Preditiva      Estatística Espacial          SIG
+      │                     │                     │
+      └─────────────────────┼─────────────────────┘
                             ▼
-                 ┌──────────────────────┐
-                 │ Dashboards e APIs    │
-                 └──────────────────────┘
+                  ┌──────────────────────┐
+                  │  Motor Prescritivo   │
+                  │    e Otimização      │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │  Dashboards e APIs   │
+                  └──────────────────────┘
+
 ```
 
 ---
 
-# 9. Fontes de Dados
+# 5. Fontes de Dados Mapeadas
 
-## Educação
+### Educação
 
-* Censo Escolar
-* IDEB
-* SAEB
-* ENEM
-* Indicadores Educacionais do INEP
+* Censo Escolar (INEP)
+* Índice de Desenvolvimento da Educação Básica (IDEB)
+* Sistema de Avaliação da Educação Básica (SAEB)
+* Exame Nacional do Ensino Médio (ENEM)
+* Indicadores de Fluxo, Distorção Idade-Série e Taxas de Rendimento (INEP)
 
-## Socioeconômicas
+### Socioeconômicas
 
-* IBGE
-* PNUD
-* IPEA
+* Censo Demográfico e Estimativas Populacionais (IBGE)
+* Índice de Desenvolvimento Humanano Municipal (IDHM/PNUD)
+* Cadastro Único para Programas Sociais (CadÚnico) e dados de vulnerabilidade social (IPEA)
 
-## Territoriais
+### Territoriais e Governamentais
 
-* Malhas municipais
-* Infraestrutura urbana
-* Dados geoespaciais públicos
-
-## Governamentais
-
-* MEC
-* Secretarias Estaduais
-* Secretarias Municipais
+* Malhas digitais municipais, estaduais e de setores censitários (IBGE)
+* Camadas geográficas de infraestrutura de transporte, redes elétricas e conectividade telecom
+* Dados de execução orçamentária obtidos via convênios com o MEC e Secretarias de Educação
 
 ---
 
-# 10. Módulos Tecnológicos
+# 6. Módulos Tecnológicos
 
 ## Módulo 1 – Data Lake Educacional
 
-Responsável pela coleta, integração e armazenamento dos dados.
+Infraestrutura de dados escalável voltada à ingestão, normalização, armazenamento e governança das bases de dados.
 
-### Funcionalidades
-
-* ETL automatizado
-* Georreferenciamento
-* Catálogo de dados
-* APIs de integração
-
----
+* **Funcionalidades:** Pipelines de ETL/ELT automatizados, rotinas de geocodificação e compatibilização de coordenadas geográficas, catálogo de metadados centralizado e barramento de APIs seguras para consumo interno e externo.
 
 ## Módulo 2 – Motor Analítico SANDRA
 
-Responsável pela identificação de fatores críticos.
+Módulo de processamento estatístico avançado derivado da metodologia da dissertação para identificação de correlações reais e isolamento de dependências.
 
-### Técnicas
+* **Técnicas:** Algoritmos de seleção de atributos (*Feature Selection*), modelagem de regressão robusta, análises de estabilidade temporal e regional de variáveis independentes e quantificação de impacto local.
+* **Entregas:** Criação de rankings automatizados de fatores de impacto, isolamento de variáveis críticas locais e geração de indicadores de vulnerabilidade ajustados ao território.
 
-* Correlação
-* Regressão
-* Seleção de atributos
-* Estabilidade de variáveis
-* Variabilidade regional
+## Módulo 3 – Inteligência Artificial Preditiva
 
-### Resultados
+Subsistema focado no treinamento de modelos preditivos supervisionados de Machine Learning para simulação de cenários educacionais.
 
-* Ranking de fatores
-* Variáveis críticas
-* Indicadores territoriais
+* **Modelos:** Algoritmos de aprendizado supervisionado baseados em árvores de decisão e conjuntos de modelos (*Random Forest, XGBoost, LightGBM*) e arquiteturas de Redes Neurais para dados tabulares.
+* **Objetivos:** Predição de trajetórias do IDEB, classificação de risco de evasão precoce por unidade escolar, estimativa de proficiência em exames padronizados e modelagem de fluxo escolar.
 
----
+## Módulo 4 – Estatística Espacial e Inteligência Geográfica
 
-## Módulo 3 – Inteligência Artificial
+Módulo analítico que aplica algoritmos de geografia quantitativa para compreender a distribuição e a dependência espacial dos fenômenos educacionais.
 
-### Modelos
+* **Técnicas:** Índice de Autocorrelação Espacial de Moran Global e Local (LISA), estatística espacial de Getis-Ord ($G_i^*$), modelagem econométrica espacial (*Spatial Lag Model* — SLM e *Spatial Error Model* — SEM).
+* **Produtos:** Geração dinâmica de mapas de clusters (Alto-Alto, Baixo-Baixo), detecção automatizada de *hotspots* de exclusão escolar e isolamento geográfico de regiões críticas prioritárias.
 
-* Random Forest
-* XGBoost
-* LightGBM
-* Redes Neurais
+## Módulo 5 – Sistema Prescritivo e Recomendação de Políticas
 
-### Objetivos
+Camada lógica responsável por correlacionar os diagnósticos analíticos, espaciais e preditivos com linhas de ação e intervenções pedagógicas e de infraestrutura.
 
-* Predição do IDEB
-* Predição de evasão
-* Predição de proficiência
-* Predição de fluxo escolar
-
----
-
-## Módulo 4 – Estatística Espacial
-
-### Técnicas
-
-* Moran Global
-* Moran Local (LISA)
-* Getis-Ord
-* Spatial Lag
-* Spatial Error
-
-### Produtos
-
-* Mapas de clusters
-* Hotspots educacionais
-* Regiões prioritárias
-
----
-
-## Módulo 5 – Sistema Prescritivo
-
-Transformação de diagnósticos em recomendações.
-
-### Exemplos
-
-* Formação docente
-* Conectividade escolar
-* Infraestrutura
-* Transporte escolar
-* Permanência estudantil
-
----
+* **Escopo de Recomendação:** Alocação de programas de formação continuada para docentes, direcionamento de investimentos inovações em conectividade escolar banda larga, expansão da rede de transporte escolar rural, programas de prevenção do abandono e otimização da distribuição da infraestrutura física (quadras, laboratórios, bibliotecas).
 
 ## Módulo 6 – Otimização Multiobjetivo
 
-### Objetivos
+Algoritmo de pesquisa operacional voltado ao suporte à decisão sob restrições orçamentárias severas.
 
-Maximizar:
-
-* Aprendizagem
-* Proficiência
-* Equidade
-
-Minimizar:
-
-* Evasão
-* Desigualdade territorial
-* Custos
-
-### Algoritmos
-
-* NSGA-III
-* MOEA/D
-* RVEA
-* NSGA-II
+* **Funções-Objetivo (Maximizar):** Níveis gerais de aprendizagem, taxas de proficiência e equidade na distribuição de insumos entre escolas.
+* **Funções-Objetivo (Minimizar):** Taxas de evasão escolar, desigualdade socioespacial intracorporativa e custos operacionais de investimento.
+* **Algoritmos Aplicados:** Algoritmos genéticos evolutivos multiobjetivo (*NSGA-III, MOEA/D, RVEA, NSGA-II*).
 
 ---
 
-# 11. Inovação
+# 7. Modelo Comercial (SaaS) e Camada Gratuita
 
-O diferencial da proposta está na combinação de:
+A plataforma EduAtlas será comercializada sob o modelo de negócio **SaaS (Software as a Service) Fechado**, mediante a contratação de assinaturas recorrentes por órgãos públicos (Secretarias de Educação) e instituições privadas.
 
-* Inteligência Artificial;
-* Estatística Espacial;
-* Sistemas Prescritivos;
-* Otimização Multiobjetivo;
-* Evidências Territoriais.
+Para atração, experimentação técnica e disseminação da metodologia, o projeto incorporará uma **Camada Gratuita** rigidamente estruturada sob as seguintes premissas de barreira comercial:
 
-A solução transcende a análise descritiva tradicional ao incorporar capacidades de previsão, recomendação e simulação de cenários.
-
----
-
-# 12. Produtos Tecnológicos
-
-## Produto 1
-
-Plataforma GeoEduAI.
-
-## Produto 2
-
-Motor Analítico SANDRA-Edu.
-
-## Produto 3
-
-Motor Prescritivo de Políticas Educacionais.
-
-## Produto 4
-
-API de Inteligência Territorial Educacional.
-
-## Produto 5
-
-Biblioteca de algoritmos de otimização para educação.
+1. **Autenticação Obrigatória:** O acesso às ferramentas básicas exigirá login individual e controle de credenciais.
+2. **Restrição Funcional:** Limitação metodológica estrita. A camada gratuita disponibilizará apenas o mapeamento básico de autocorrelação espacial (Índice de Moran Global e Local) nativo da *Metodologia SANDRA* sobre variáveis consolidadas.
+3. **Restrição de Granularidade Geográfica:** Os dados e análises da camada gratuita serão restritos à visualização em nível macro (recortes estaduais ou macrorregionais). O detalhamento em nível municipal, distrital, por setor censitário ou por unidade escolar será exclusivo dos planos corporativos pagos.
+4. **Exclusão de Módulos Avançados:** As funcionalidades de Inteligência Artificial Preditiva (Machine Learning), o Sistema Prescritivo de Recomendação e o Motor de Otimização Multiobjetivo não estarão acessíveis na modalidade gratuita.
 
 ---
 
-# 13. Resultados Esperados
+# 8. Produtos Tecnológicos (Ativos de Propriedade Intelectual)
 
-* Plataforma operacional em ambiente web;
-* Redução da subjetividade na tomada de decisão;
-* Identificação de fatores territoriais críticos;
-* Priorização inteligente de investimentos;
-* Apoio à formulação de políticas públicas;
-* Transferência tecnológica para órgãos públicos.
-
----
-
-# 14. Formação de Recursos Humanos
-
-## Pós-Graduação
-
-* 1 Doutorado
-* 2 Mestrados
-
-## Graduação
-
-* Bolsistas de Iniciação Científica
-
-## Capacitação
-
-* Formação de gestores públicos
-* Formação de pesquisadores
-* Formação de desenvolvedores
+* **Produto 1 — Plataforma GeoEduAI:** Aplicação Web (SaaS) com dashboards gerenciais e relatórios analíticos interativos georreferenciados para tomadores de decisão.
+* **Produto 2 — Motor Analítico SANDRA-Edu:** Engine algorítmica proprietária empacotada em módulos de alta performance para extração e isolamento de fatores territoriais críticos.
+* **Produto 3 — Motor Prescritivo e Recomendador:** Núcleo de regras e lógica de recomendação de intervenções públicas integradas com o território.
+* **Produto 4 — API de Inteligência Territorial Educacional:** Microsserviços e endpoints REST para integração e interoperabilidade de dados com sistemas corporativos legados do governo.
+* **Produto 5 — Biblioteca de Otimização Multiobjetivo Educacional:** Conjunto de scripts e heurísticas computacionais otimizados para alocação de recursos orçamentários sob restrições de governança pública.
 
 ---
 
-# 15. Cronograma (36 meses)
+# 9. Formação de Recursos Humanos (PD&I)
 
-| Atividade                  | 1-6 | 7-12 | 13-18 | 19-24 | 25-30 | 31-36 |
-| -------------------------- | --- | ---- | ----- | ----- | ----- | ----- |
-| Revisão e especificação    | X   |      |       |       |       |       |
-| Integração de dados        | X   | X    |       |       |       |       |
-| Desenvolvimento SANDRA-Edu |     | X    | X     |       |       |       |
-| IA preditiva               |     |      | X     | X     |       |       |
-| Estatística espacial       |     |      | X     | X     |       |       |
-| Sistema prescritivo        |     |      |       | X     | X     |       |
-| Otimização multiobjetivo   |     |      |       | X     | X     |       |
-| Pilotos                    |     |      |       |       | X     |       |
-| Transferência tecnológica  |     |      |       |       |       | X     |
+O projeto atuará de forma direta na qualificação de pessoal técnico e acadêmico como contrapartida obrigatória do ecossistema de fomento:
+
+* **Pós-Graduação Stricse Sensu:** Financiamento de bolsas e taxas escolares para **1 projeto de Doutorado** e **2 projetos de Mestrado** (Acadêmico ou Profissional) vinculados a ICTs parceiras.
+* **Graduação:** Concessão de Bolsas de Iniciação Científica (IC) para estudantes das áreas de Ciência da Computação, Engenharia de Software, Estatística e Geografia Quantitativa.
+* **Capacitação Corporativa:** Desenvolvimento de trilhas de treinamento técnico focadas em *Data Literacy*, inteligência espacial e gestão pública baseada em evidências para os desenvolvedores da plataforma e servidores dos órgãos públicos participantes dos pilotos.
 
 ---
 
-# 16. Potencial de Enquadramento na Lei de Informática
+# 10. Cronograma de Execução Físico-Financeira (36 Meses)
 
-O projeto apresenta aderência às diretrizes da Lei de Informática por envolver:
+| Atividade / Linha de Desenvolvimento | M1-M6 | M7-M12 | M13-M18 | M19-M24 | M25-M30 | M31-M36 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Revisão bibliográfica, modelagem teórica e especificação técnica da plataforma | **X** |  |  |  |  |  |
+| Engenharia de dados, pipelines ETL e estruturação do Data Lake Educacional | **X** | **X** |  |  |  |  |
+| Desenvolvimento, teste e acoplamento do Motor Analítico SANDRA-Edu |  | **X** | **X** |  |  |  |
+| Modelagem, treinamento e validação dos algoritmos de IA Preditiva |  |  | **X** | **X** |  |  |
+| Implementação das rotinas de Estatística Espacial e visualização SIG |  |  | **X** | **X** |  |  |
+| Desenvolvimento do Motor Prescritivo e dos algoritmos de Otimização |  |  |  | **X** | **X** |  |
+| Implantação de Projetos-Piloto em Secretarias parceiras e Validação Real |  |  |  |  | **X** | **X** |
+| Transferência Tecnológica, registro de patentes/softwares e relatórios finais |  |  |  |  |  | **X** |
 
-* Pesquisa aplicada;
-* Desenvolvimento de software inovador;
-* Inteligência Artificial;
-* Ciência de Dados;
-* Formação de recursos humanos;
-* Transferência tecnológica;
-* Cooperação entre empresas e ICTs;
-* Geração de propriedade intelectual.
+---
 
-Além disso, produz ativos tecnológicos passíveis de exploração comercial e transferência para organizações públicas e privadas.
+# 11. Enquadramento Técnico-Legal na Lei de Informática
 
-# 17. Referência Bibliográfica
+O projeto proposto possui total aderência aos requisitos regulatórios e de conformidade estabelecidos pela **Lei nº 8.248/1991 (Lei de Informática)** para o aporte de recursos de contrapartida de PD&I obrigatórios por parte de empresas beneficiárias de incentivos fiscais do setor de TIC, sustentando-se nos seguintes pilares fundamentais:
+
+1. **Pesquisa Aplicada e Inovação Tecnológica:** O escopo do projeto foca na transição de uma metodologia científica acadêmica (Metodologia SANDRA) para um produto comercial de alta tecnologia em escala de mercado nacional.
+2. **Desenvolvimento de Software Inovador com Tecnologias de Ponta:** O projeto centra-se no desenvolvimento de algoritmos complexos de Inteligência Artificial, Aprendizado de Máquina, Otimização de Sistemas e Análise de Grafos/Espacial, atendendo à priorização setorial de fomento de software nacional inteligente.
+3. **Cooperação Estratégica com ICTs:** A estrutura de governança do projeto pressupõe a execução de atividades em parceria estreita com universidades de excelência credenciadas junto ao Comitê de Área de Tecnologia da Informação (CATI).
+4. **Geração de Propriedade Intelectual Nacional:** Criação de ativos computacionais tangíveis que serão formalmente registrados junto ao Instituto Nacional da Propriedade Industrial (INPI), expandindo o portfólio de patentes e registros de software do país.
+5. **Formação de Capital Humano Avançado:** Garantia de investimento real na formação acadêmica de alto nível (Doutorado e Mestrado) e inserção de jovens profissionais (Iniciação Científica) no ecossistema de desenvolvimento de TIC do mercado brasileiro.
+
+```
+
+```
