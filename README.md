@@ -207,6 +207,6 @@ O projeto proposto possui total aderência aos requisitos regulatórios e de con
 5. **Formação de Capital Humano Avançado:** Garantia de investimento real na formação acadêmica de alto nível (Doutorado e Mestrado) e inserção de jovens profissionais (Iniciação Científica) no ecossistema de desenvolvimento de TIC do mercado brasileiro.
 
 ```
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/4a87bddf-05f1-43db-ac10-5a9732200743" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/img/Gemini_Generated_Image_98tdqt98tdqt98td.png" />
 
 ```
