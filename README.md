@@ -206,9 +206,16 @@ O projeto proposto possui total aderência aos requisitos regulatórios e de con
 4. **Geração de Propriedade Intelectual Nacional:** Criação de ativos computacionais tangíveis que serão formalmente registrados junto ao Instituto Nacional da Propriedade Industrial (INPI), expandindo o portfólio de patentes e registros de software do país.
 5. **Formação de Capital Humano Avançado:** Garantia de investimento real na formação acadêmica de alto nível (Doutorado e Mestrado) e inserção de jovens profissionais (Iniciação Científica) no ecossistema de desenvolvimento de TIC do mercado brasileiro.
 
-<img src="https://github.com/smp-sandramariapereira/EduAtlas/blob/main/assets/img/Gemini_Generated_Image_98tdqt98tdqt98td.png?raw=true" alt="Dashboard Analítico EduAtlas" width="400">
+<img src="https://github.com/smp-sandramariapereira/EduAtlas/blob/main/assets/img/1?raw=true" alt="Dashboard Analítico EduAtlas" width="400">
 
 ---
 
-<img src="https://github.com/smp-sandramariapereira/EduAtlas/blob/main/assets/img/Gemini_Generated_Image_98tdqt98tdqt98td.png?raw=true" alt="Dashboard Analítico EduAtlas" width="400">
+<img src="https://github.com/smp-sandramariapereira/EduAtlas/blob/main/assets/img/2.png?raw=true" alt="Dashboard Analítico EduAtlas" width="400">
 
+---
+
+<img src="https://github.com/smp-sandramariapereira/EduAtlas/blob/main/assets/img/3.png?raw=true" alt="Dashboard Analítico EduAtlas" width="400">
+
+---
+
+<img src="https://github.com/smp-sandramariapereira/EduAtlas/blob/main/assets/img/4.png?raw=true" alt="Dashboard Analítico EduAtlas" width="400">
